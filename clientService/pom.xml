@@ -8,11 +8,11 @@
 		<version>3.1.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>client-service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>client-service</name>
-	<description>Client Microservice</description>
+	<groupId>io.radimyassine</groupId>
+	<artifactId>vehicle-client-service</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<name>Vehicle Client Service</name>
+	<description>RESTful microservice for managing client data with Spring Data JPA and MySQL integration. Part of the Vehicle Management Platform microservices architecture.</description>
 	<properties>
 		<java.version>17</java.version>
 		<spring-cloud.version>2022.0.4</spring-cloud.version>
@@ -70,8 +70,13 @@
 
     <developers>
         <developer>
-            <id>karkachi</id>
-            <name>Karkachi Mohamed</name>
+            <id>radimyassine</id>
+            <name>Radim Yassine</name>
+            <email>radim.yassine@example.com</email>
+            <roles>
+                <role>Software Architect</role>
+                <role>Developer</role>
+            </roles>
         </developer>
     </developers>
 </project>
